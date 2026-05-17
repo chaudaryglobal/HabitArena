@@ -545,3 +545,103 @@ option {
     }
 }
 
+/* --- Mobile Responsiveness and Header Optimization --- */
+@media (max-width: 768px) {
+    /* Header Stack Optimization */
+    .nav-container {
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 16px;
+        align-items: center;
+        position: relative;
+    }
+    
+    .brand-name {
+        font-size: 19px;
+        text-align: center;
+        display: block;
+        margin-right: 28px; /* Leave room for the corner theme toggle */
+    }
+    
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+    
+    .nav-link {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    
+    /* Reposition theme toggle absolutely to save header vertical height */
+    .theme-toggle {
+        position: absolute;
+        top: 8px;
+        right: 12px;
+        width: 36px;
+        height: 36px;
+        border-radius: 10px;
+    }
+
+    /* Main Content Adjustments */
+    .main-content {
+        margin: 20px auto;
+        padding: 0 16px;
+    }
+
+    .glass-card {
+        padding: 24px 20px;
+        border-radius: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .landing-subtitle {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .divider {
+        margin-bottom: 24px;
+    }
+
+    /* Landing Card Buttons */
+    .landing-card-btn {
+        gap: 14px;
+        padding: 16px;
+        border-radius: 12px;
+    }
+
+    .card-btn-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .card-btn-icon i {
+        width: 20px;
+        height: 20px;
+    }
+
+    .card-btn-content h3 {
+        font-size: 15px;
+    }
+
+    .card-btn-content p {
+        font-size: 12.5px;
+    }
+
+    /* Policy text optimization */
+    .policy-block h2 {
+        font-size: 16px;
+    }
+
+    .policy-block p, .policy-block li {
+        font-size: 13.5px;
+    }
+}
+
