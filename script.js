@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (supportForm) {
         supportForm.addEventListener("submit", (e) => {
-            e.preventDefault(); // Stop standard HTTP POST reloads
+            e.preventDefault(); // Stop standard HTTP reloads
 
             // 1. Extract values for verification
             const name = document.getElementById("supportName").value.trim();
@@ -47,51 +47,28 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
 
-            // Show submitting state on submit button
-            const submitBtn = supportForm.querySelector(".submit-btn");
-            const originalBtnHtml = submitBtn.innerHTML;
-            submitBtn.innerHTML = `<span>Sending Ticket...</span><i data-lucide="loader" class="animate-spin"></i>`;
-            if (window.lucide) { window.lucide.createIcons(); }
+            // 3. Construct premium, highly readable ticket details
+            const emailSubject = `HabitArena Support Ticket [${category.toUpperCase()}]`;
+            
+            let emailBody = `--- HABITARENA CUSTOMER SUPPORT TICKET ---\r\n\r\n`;
+            emailBody += `Customer Name: ${name}\r\n`;
+            emailBody += `Customer Email: ${email}\r\n`;
+            emailBody += `Issue Category: ${category.toUpperCase()}\r\n`;
+            emailBody += `Submitted On: ${new Date().toLocaleString()}\r\n\r\n`;
+            emailBody += `---------------- MESSAGE ----------------\r\n`;
+            emailBody += `${message}\r\n`;
+            emailBody += `-----------------------------------------\r\n\r\n`;
+            emailBody += `(Please do not modify this text block. Simply press SEND in your email application to file this ticket with Chaudary Global.)`;
 
-            // 3. Asynchronously post support request to FormSubmit (Zero-Database Overhead)
-            fetch("https://formsubmit.co/ajax/chaudaryglobal@gmail.com", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    "Accept": "application/json"
-                },
-                body: JSON.stringify({
-                    "AppName": "HabitArena",
-                    "Customer Name": name,
-                    "Customer Email": email,
-                    "Support Category": category.toUpperCase(),
-                    "Ticket Message": message
-                })
-            })
-            .then(response => {
-                if (response.ok) {
-                    return response.json();
-                }
-                throw new Error("FormSubmit submission failed.");
-            })
-            .then(data => {
-                // 4. Smoothly switch interface states
-                supportForm.classList.add("hidden");
-                successState.classList.remove("hidden");
-            })
-            .catch(error => {
-                console.error(error);
-                alert("Could not process form. Falling back: Opening your local email application...");
-                
-                // Fallback: mailto link
-                const mailtoUrl = `mailto:chaudaryglobal@gmail.com?subject=HabitArena [${category.toUpperCase()}] Support&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
-                window.location.href = mailtoUrl;
-            })
-            .finally(() => {
-                // Reset button text
-                submitBtn.innerHTML = originalBtnHtml;
-                if (window.lucide) { window.lucide.createIcons(); }
-            });
+            // Encode the parameters for mailto
+            const mailtoUrl = `mailto:chaudaryglobal@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+
+            // 4. Trigger local email client
+            window.location.href = mailtoUrl;
+
+            // 5. Smoothly transition form UI states to Success
+            supportForm.classList.add("hidden");
+            successState.classList.remove("hidden");
         });
     }
 
