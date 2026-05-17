@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HabitArena — Privacy Policy</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Floating Background Stars Canvas -->
+    <div class="stars-bg"></div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <a href="index.html" class="brand-link"><span class="brand-name">HabitArena</span></a>
+            </div>
+            <nav class="nav-links">
+                <a href="privacy.html" class="nav-link active">Privacy Policy</a>
+                <a href="terms.html" class="nav-link">Terms of Service</a>
+                <a href="support.html" class="nav-link">Customer Support</a>
+            </nav>
+            <button class="theme-toggle" id="themeToggleBtn" aria-label="Toggle Theme">
+                <i data-lucide="sun" class="sun-icon"></i>
+                <i data-lucide="moon" class="moon-icon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="page-content">
+            <div class="glass-card">
+                <h1>Privacy Policy</h1>
+                <p class="subtitle">Last Updated: May 17, 2026</p>
+                <hr class="divider">
+
+                <div class="policy-block">
+                    <h2>1. Introduction</h2>
+                    <p>HabitArena ("we", "us", or "our") is committed to protecting your personal information. This Privacy Policy describes how your personal information is collected, used, and shared when you use the HabitArena mobile application and its corresponding web infrastructure.</p>
+                </div>
+
+                <div class="policy-block">
+                    <h2>2. Information We Collect</h2>
+                    <p>We collect information to provide a better experience to all our users. This includes:</p>
+                    <ul>
+                        <li><strong>Account Information:</strong> Email address, username, profile metadata, and password credentials securely stored via Supabase Authentication.</li>
+                        <li><strong>Game Data:</strong> Habit completion logs, daily check-in timestamps, battle history, streaks, and accumulated Experience Points (XP) metrics.</li>
+                        <li><strong>User-Generated Content:</strong> Chat messages sent inside the ephemeral Arena Chat interface to coordinate battle invites and taunts.</li>
+                        <li><strong>Technical & Analytical Logs:</strong> Device make and model, operating system version, and crash telemetry provided via standard developer console channels.</li>
+                    </ul>
+                </div>
+
+                <div class="policy-block">
+                    <h2>3. Purpose of Data Processing</h2>
+                    <p>We process your personal data for the following specific purposes:</p>
+                    <ul>
+                        <li>To authenticate your identity and secure access to your profile data.</li>
+                        <li>To synchronize battle progress metrics and calculate rankings for the Global Leaderboard.</li>
+                        <li>To manage daily haptic-guided habit logs and prevent overlapping check-in data collisions.</li>
+                        <li>To identify technical crashes and optimize screen layouts for a premium user experience.</li>
+                    </ul>
+                </div>
+
+                <div class="policy-block">
+                    <h2>4. Data Sharing and Third Parties</h2>
+                    <p>We strictly DO NOT sell your personal data. We only share information with robust third-party infrastructure providers necessary to power the application services:</p>
+                    <ul>
+                        <li><strong>Supabase Inc:</strong> Handles backend database storage, auth credentials, real-time WebSockets, and pg_cron automated row-cleanup procedures.</li>
+                        <li><strong>Google Play Console:</strong> Collects anonymous crash telemetry to monitor build stability and runtime issues.</li>
+                    </ul>
+                    <p>All third-party services are fully vetted to ensure they adhere to strict confidentiality terms and data processing agreements.</p>
+                </div>
+
+                <div class="policy-block">
+                    <h2>5. Account Deletion and Data Rights</h2>
+                    <p>You possess full autonomy over your personal information. Under global privacy frameworks (GDPR and CCPA), you are entitled to the following rights:</p>
+                    <ul>
+                        <li><strong>Right to Deletion:</strong> You can permanently delete your account directly inside the in-app Settings panel. Upon triggering account deletion, all personal credentials, profiles, active check-in charts, and chat records will be permanently and irreversibly purged from our active databases within 30 days.</li>
+                        <li><strong>Right to Access:</strong> You can request a copy of your stored records by submitting a Customer Support request on this portal.</li>
+                    </ul>
+                </div>
+
+                <div class="policy-block">
+                    <h2>6. Children's Privacy</h2>
+                    <p>HabitArena is built strictly for users aged 13 and older. We do not knowingly collect personal identifiers from children under 13. If we discover a child under 13 has registered, we will immediately initiate backend routines to delete all related user data logs.</p>
+                </div>
+
+                <div class="policy-block">
+                    <h2>7. Contact Information</h2>
+                    <p>For any data protection inquiries, you can reach out directly to our Data Protection Officer:</p>
+                    <p><strong>DPO Email:</strong> <a href="mailto:chaudaryglobal@gmail.com">chaudaryglobal@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 HabitArena. All rights reserved. Managed by Ahmad Abdullah Chaudary (Chaudary Global).</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

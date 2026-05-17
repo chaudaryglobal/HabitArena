@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HabitArena — Customer Support</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Floating Background Stars Canvas -->
+    <div class="stars-bg"></div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <a href="index.html" class="brand-link"><span class="brand-name">HabitArena</span></a>
+            </div>
+            <nav class="nav-links">
+                <a href="privacy.html" class="nav-link">Privacy Policy</a>
+                <a href="terms.html" class="nav-link">Terms of Service</a>
+                <a href="support.html" class="nav-link active">Customer Support</a>
+            </nav>
+            <button class="theme-toggle" id="themeToggleBtn" aria-label="Toggle Theme">
+                <i data-lucide="sun" class="sun-icon"></i>
+                <i data-lucide="moon" class="moon-icon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="page-content">
+            <div class="glass-card">
+                <h1>Customer Support & Ticketing</h1>
+                <p class="subtitle">Have a question or need to report an issue? We're here to help.</p>
+                <hr class="divider">
+
+                <form id="supportForm" class="support-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="supportName">Full Name</label>
+                            <input type="text" id="supportName" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="supportEmail">Email Address</label>
+                            <input type="email" id="supportEmail" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="supportCategory">Issue Category</label>
+                        <select id="supportCategory" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="technical">Technical Bug / Crash</option>
+                            <option value="account">Account & Session Retrieval</option>
+                            <option value="battle">Battle & Cooldown Issue</option>
+                            <option value="abuse">Report Abuse / Player Conduct</option>
+                            <option value="other">General Query / Request</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="supportMessage">Message Description</label>
+                        <textarea id="supportMessage" rows="5" placeholder="Please describe your issue in detail..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <span>Submit Ticket</span>
+                        <i data-lucide="send"></i>
+                    </button>
+                </form>
+
+                <!-- Success State (hidden by default) -->
+                <div id="successState" class="success-state hidden">
+                    <div class="success-icon-wrapper">
+                        <i data-lucide="check-circle" class="success-icon"></i>
+                    </div>
+                    <h2>Ticket Submitted Successfully!</h2>
+                    <p>Thank you for reaching out. A HabitArena support representative will review your request and contact you at the provided email address within 24 hours.</p>
+                    <button id="resetFormBtn" class="reset-btn">Submit Another Ticket</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 HabitArena. All rights reserved. Managed by Ahmad Abdullah Chaudary (Chaudary Global).</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

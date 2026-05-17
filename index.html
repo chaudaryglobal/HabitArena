@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HabitArena — Legal Center & Support Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Floating Background Stars Canvas -->
+    <div class="stars-bg"></div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <a href="index.html" class="brand-link"><span class="brand-name">HabitArena</span></a>
+            </div>
+            <nav class="nav-links">
+                <a href="privacy.html" class="nav-link">Privacy Policy</a>
+                <a href="terms.html" class="nav-link">Terms of Service</a>
+                <a href="support.html" class="nav-link">Customer Support</a>
+            </nav>
+            <button class="theme-toggle" id="themeToggleBtn" aria-label="Toggle Theme">
+                <i data-lucide="sun" class="sun-icon"></i>
+                <i data-lucide="moon" class="moon-icon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="page-content">
+            <div class="glass-card text-center-card">
+                <h1 class="landing-title">Welcome to the Legal & Support Center</h1>
+                <p class="subtitle landing-subtitle">Manage your account data, review usage terms, or contact developers directly.</p>
+                <hr class="divider">
+
+                <div class="landing-links">
+                    <a href="privacy.html" class="landing-card-btn">
+                        <div class="card-btn-icon"><i data-lucide="shield-check"></i></div>
+                        <div class="card-btn-content">
+                            <h3>Privacy Policy</h3>
+                            <p>Understand how we protect your personal account metadata and game records.</p>
+                        </div>
+                        <i data-lucide="chevron-right" class="arrow-icon"></i>
+                    </a>
+
+                    <a href="terms.html" class="landing-card-btn">
+                        <div class="card-btn-icon"><i data-lucide="file-text"></i></div>
+                        <div class="card-btn-content">
+                            <h3>Terms of Service</h3>
+                            <p>Read our gaming rules, player conduct expectations, and self-reporting terms.</p>
+                        </div>
+                        <i data-lucide="chevron-right" class="arrow-icon"></i>
+                    </a>
+
+                    <a href="support.html" class="landing-card-btn">
+                        <div class="card-btn-icon"><i data-lucide="help-circle"></i></div>
+                        <div class="card-btn-content">
+                            <h3>Customer Support</h3>
+                            <p>Encountered a bug or need account deletion assistance? Contact us here.</p>
+                        </div>
+                        <i data-lucide="chevron-right" class="arrow-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 HabitArena. All rights reserved. Managed by Ahmad Abdullah Chaudary (Chaudary Global).</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
