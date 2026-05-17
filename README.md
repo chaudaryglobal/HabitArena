@@ -39,7 +39,7 @@ graph TD
 
 ## 📱 Visual Screen-by-Screen Game Guide
 
-This section is your visual playbook. You can save your screenshots under the designated filenames inside your artifacts directory to see them appear live in this guide!
+This section is your visual playbook. You can save your screenshots under the designated filenames inside your `images/` directory at the root of the project to see them appear live in this guide!
 
 ---
 
@@ -47,9 +47,9 @@ This section is your visual playbook. You can save your screenshots under the de
 > *"Where discipline meets multiplayer warfare! Evolve from a novice to an arena overlord."*
 
 #### 📸 GAME SCREEN CAPTURE
-*Save your onboarding screenshot as `onboarding.png` inside `C:\Users\AHMAD CH\.gemini\antigravity\brain\50e00fd5-114d-4bf0-bf3b-ff884d8d9207\artifacts\` to embed it here:*
+*Save your onboarding screenshot as `onboarding.png` inside the `images/` directory to embed it here:*
 
-![Onboarding Screen](file:///C:/Users/AHMAD%20CH/.gemini/antigravity/brain/50e00fd5-114d-4bf0-bf3b-ff884d8d9207/artifacts/onboarding.png)
+![Onboarding Screen](./images/onboarding.png)
 
 #### 🎮 Player Action Guide
 * **Swipe to Explore**: Swipe left or right through the spectacular cosmic feature slides to explore the combat guidelines.
@@ -61,9 +61,9 @@ This section is your visual playbook. You can save your screenshots under the de
 > *"Your tactical command center. Track your clashes, protect your streaks, and log progress instantly!"*
 
 #### 📸 GAME SCREEN CAPTURE
-*Save your home dashboard screenshot as `home_dashboard.png` inside the directory to embed it here:*
+*Save your home dashboard screenshot as `home_dashboard.png` inside the `images/` directory to embed it here:*
 
-![Home Dashboard Screen](file:///C:/Users/AHMAD%20CH/.gemini/antigravity/brain/50e00fd5-114d-4bf0-bf3b-ff884d8d9207/artifacts/home_dashboard.png)
+![Home Dashboard Screen](./images/home_dashboard.png)
 
 #### 🎮 Player Action Guide
 * **Instant Check-In**: Tap the check-in button next to any active Arena habit to register your completion.
@@ -76,9 +76,9 @@ This section is your visual playbook. You can save your screenshots under the de
 > *"Draft your battle terms, generate secure codes, and summon your rivals!"*
 
 #### 📸 GAME SCREEN CAPTURE
-*Save your create/join screenshot as `create_arena.png` inside the directory to embed it here:*
+*Save your create/join screenshot as `create_arena.png` inside the `images/` directory to embed it here:*
 
-![Create Arena Screen](file:///C:/Users/AHMAD%20CH/.gemini/antigravity/brain/50e00fd5-114d-4bf0-bf3b-ff884d8d9207/artifacts/create_arena.png)
+![Create Arena Screen](./images/create_arena.png)
 
 #### 🎮 Player Action Guide
 * **Draft the Arena**: Enter your custom habit title, choose the duration, and set the daily XP stakes.
@@ -91,9 +91,9 @@ This section is your visual playbook. You can save your screenshots under the de
 > *"Enter the proving grounds! Chat, taunt, log, and watch your progress bars collide in real-time."*
 
 #### 📸 GAME SCREEN CAPTURE
-*Save your battle room screenshot as `battle_room.png` inside the directory to embed it here:*
+*Save your battle room screenshot as `battle_room.png` inside the `images/` directory to embed it here:*
 
-![Battle Room Screen](file:///C:/Users/AHMAD%20CH/.gemini/antigravity/brain/50e00fd5-114d-4bf0-bf3b-ff884d8d9207/artifacts/battle_room.png)
+![Battle Room Screen](./images/battle_room.png)
 
 #### 🎮 Player Action Guide
 * **Watch Progress Bars Collide**: Track real-time progress bars as you and your rival check in daily.
@@ -106,9 +106,9 @@ This section is your visual playbook. You can save your screenshots under the de
 > *"Claim your spot among the legendary elite. Evolve your score and secure eternal glory!"*
 
 #### 📸 GAME SCREEN CAPTURE
-*Save your leaderboard screenshot as `leaderboard.png` inside the directory to embed it here:*
+*Save your leaderboard screenshot as `leaderboard.png` inside the `images/` directory to embed it here:*
 
-![Leaderboard Screen](file:///C:/Users/AHMAD%20CH/.gemini/antigravity/brain/50e00fd5-114d-4bf0-bf3b-ff884d8d9207/artifacts/leaderboard.png)
+![Leaderboard Screen](./images/leaderboard.png)
 
 #### 🎮 Player Action Guide
 * **Compare Ranks**: Track your ranking on the Global Leaderboard calculated directly from your total verified accumulated XP.
@@ -121,9 +121,9 @@ This section is your visual playbook. You can save your screenshots under the de
 > *"Manage profile assets, adjust notification rules, and discover our premium developer heritage!"*
 
 #### 📸 GAME SCREEN CAPTURE
-*Save your settings/about screenshot as `about_app.png` inside the directory to embed it here:*
+*Save your settings/about screenshot as `about_app.png` inside the `images/` directory to embed it here:*
 
-![About App Screen](file:///C:/Users/AHMAD%20CH/.gemini/antigravity/brain/50e00fd5-114d-4bf0-bf3b-ff884d8d9207/artifacts/about_app.png)
+![About App Screen](./images/about_app.png)
 
 #### 🎮 Player Action Guide
 * **Personalize Profile**: Easily edit your display name, upload custom avatars, and adjust notifications.
