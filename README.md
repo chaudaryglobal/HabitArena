@@ -46,10 +46,7 @@ This section is your visual playbook. You can save your screenshots under the de
 ### 1. 🏁 Onboarding Screen (The Proving Grounds)
 > *"Where discipline meets multiplayer warfare! Evolve from a novice to an arena overlord."*
 
-#### 📸 GAME SCREEN CAPTURE
-*Save your onboarding screenshot as `onboarding.png` inside the `images/` directory to embed it here:*
-
-![Onboarding Screen](./images/onboarding.png)
+![Onboarding Screen](./images/onboarding.jpeg)
 
 #### 🎮 Player Action Guide
 * **Swipe to Explore**: Swipe left or right through the spectacular cosmic feature slides to explore the combat guidelines.
@@ -60,10 +57,7 @@ This section is your visual playbook. You can save your screenshots under the de
 ### 2. 🏠 Main Habit Dashboard (Your Command Center)
 > *"Your tactical command center. Track your clashes, protect your streaks, and log progress instantly!"*
 
-#### 📸 GAME SCREEN CAPTURE
-*Save your home dashboard screenshot as `home_dashboard.png` inside the `images/` directory to embed it here:*
-
-![Home Dashboard Screen](./images/home_dashboard.png)
+![Home Dashboard Screen](./images/home_dashboard.jpeg)
 
 #### 🎮 Player Action Guide
 * **Instant Check-In**: Tap the check-in button next to any active Arena habit to register your completion.
@@ -75,10 +69,7 @@ This section is your visual playbook. You can save your screenshots under the de
 ### 3. ➕ Arena Creator & Join Clash Panel
 > *"Draft your battle terms, generate secure codes, and summon your rivals!"*
 
-#### 📸 GAME SCREEN CAPTURE
-*Save your create/join screenshot as `create_arena.png` inside the `images/` directory to embed it here:*
-
-![Create Arena Screen](./images/create_arena.png)
+![Create Arena Screen](./images/create_arena.jpeg)
 
 #### 🎮 Player Action Guide
 * **Draft the Arena**: Enter your custom habit title, choose the duration, and set the daily XP stakes.
@@ -90,10 +81,7 @@ This section is your visual playbook. You can save your screenshots under the de
 ### 4. 🏟️ Arena Battle Room & Ephemeral Chat
 > *"Enter the proving grounds! Chat, taunt, log, and watch your progress bars collide in real-time."*
 
-#### 📸 GAME SCREEN CAPTURE
-*Save your battle room screenshot as `battle_room.png` inside the `images/` directory to embed it here:*
-
-![Battle Room Screen](./images/battle_room.png)
+![Battle Room Screen](./images/arena_room.jpeg)
 
 #### 🎮 Player Action Guide
 * **Watch Progress Bars Collide**: Track real-time progress bars as you and your rival check in daily.
@@ -105,10 +93,7 @@ This section is your visual playbook. You can save your screenshots under the de
 ### 5. 🏆 Global Leaderboard (The Pantheon of Grit)
 > *"Claim your spot among the legendary elite. Evolve your score and secure eternal glory!"*
 
-#### 📸 GAME SCREEN CAPTURE
-*Save your leaderboard screenshot as `leaderboard.png` inside the `images/` directory to embed it here:*
-
-![Leaderboard Screen](./images/leaderboard.png)
+![Leaderboard Screen](./images/leaderboard.jpeg)
 
 #### 🎮 Player Action Guide
 * **Compare Ranks**: Track your ranking on the Global Leaderboard calculated directly from your total verified accumulated XP.
@@ -120,10 +105,7 @@ This section is your visual playbook. You can save your screenshots under the de
 ### 6. ⚙️ Settings & Sleek "About App" Info Panel
 > *"Manage profile assets, adjust notification rules, and discover our premium developer heritage!"*
 
-#### 📸 GAME SCREEN CAPTURE
-*Save your settings/about screenshot as `about_app.png` inside the `images/` directory to embed it here:*
-
-![About App Screen](./images/about_app.png)
+![About App Screen](./images/about_app.jpeg)
 
 #### 🎮 Player Action Guide
 * **Personalize Profile**: Easily edit your display name, upload custom avatars, and adjust notifications.
